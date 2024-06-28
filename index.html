@@ -10,14 +10,17 @@
     <div class="container">
         <h1>Cooling Tower Make-Up Water Calculator</h1>
         <form id="calculator-form">
-            <label for="evaporation">Evaporation (m³/hr):</label>
-            <input type="number" id="evaporation" name="evaporation" required>
+            <label for="circulation-rate">Circulation Rate (m³/hr):</label>
+            <input type="number" id="circulation-rate" name="circulation-rate" required>
             
-            <label for="blowdown">Blowdown (m³/hr):</label>
-            <input type="number" id="blowdown" name="blowdown" required>
+            <label for="delta-t">Delta T (°C):</label>
+            <input type="number" id="delta-t" name="delta-t" required>
             
-            <label for="leakage">Leakage (m³/hr):</label>
-            <input type="number" id="leakage" name="leakage" required>
+            <label for="cycles-of-concentration">Cycles of Concentration:</label>
+            <input type="number" id="cycles-of-concentration" name="cycles-of-concentration" required>
+            
+            <label for="drift-rate">Drift Loss Rate (% of Circulation):</label>
+            <input type="number" id="drift-rate" name="drift-rate" required>
             
             <button type="submit">Calculate</button>
         </form>
